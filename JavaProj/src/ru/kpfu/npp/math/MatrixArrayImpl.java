@@ -3,7 +3,7 @@ package ru.kpfu.npp.math;
 /**
  * Created by teren_000 on 15.03.14.
  */
-public class MatrixArrayImpl {
+public class MatrixArrayImpl implements IMatrix{
     // class field
     private  int [][] matrix;
 
