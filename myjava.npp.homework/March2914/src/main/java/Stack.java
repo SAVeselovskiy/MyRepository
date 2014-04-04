@@ -13,6 +13,7 @@ public class Stack<Type> implements  StackInterface<Type>{
     Stack(Stack original){
         List=new LinkedList<Type>(original.List);
     }
+
     @Override
     public Type pop() {
         Type result = this.List.remove();
@@ -30,7 +31,7 @@ public class Stack<Type> implements  StackInterface<Type>{
     }
 
     @Override
-    public long size() {
+    public int size() {
         return this.List.size();
     }
 }

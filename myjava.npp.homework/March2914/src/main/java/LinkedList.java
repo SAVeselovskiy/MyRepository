@@ -44,7 +44,6 @@ public class LinkedList <Type> implements List<Type>{
      */
     @Override
     public Type remove() {
-
         Refer<Type> temp=head;
         for(int i=1 ;temp.next!=tail.next;temp=temp.next,i++){  //find previous element
         }
@@ -65,7 +64,7 @@ public class LinkedList <Type> implements List<Type>{
      *
      * @return size of list
      */
-    public long size() {
+    public int size() {
         Refer<Type> temp=head;
         int size=0;
         for(;temp!=tail;temp=temp.next,size++){

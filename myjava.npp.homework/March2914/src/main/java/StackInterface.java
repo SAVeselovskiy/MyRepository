@@ -23,5 +23,5 @@ public interface StackInterface<Type> {
      */
     Type peek();
 
-    long size();
+    int size();
 }
