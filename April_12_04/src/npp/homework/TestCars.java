@@ -9,6 +9,7 @@ public class TestCars {
         Scanner scan = new Scanner(System.in);
         int id = scan.nextInt();
         salon.printCars(salon.findCarsById(id));
+        scan.close();
     }
 
 }

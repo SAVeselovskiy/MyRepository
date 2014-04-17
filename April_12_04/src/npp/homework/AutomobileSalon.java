@@ -20,7 +20,7 @@ public class AutomobileSalon {
         }
         for(int i = 0; i <raceCars1Size; i++){
             Racecar temp = RacecarFactory.createCar("Racecar1");
-            raceCars1.add(i, temp);
+            raceCars1.add(temp);
         }
 
         int raceCars2Size = new Random().nextInt(7);
@@ -29,7 +29,7 @@ public class AutomobileSalon {
         }
         for(int i = 0; i <raceCars2Size; i++){
             Racecar temp = RacecarFactory.createCar("Racecar2");
-            raceCars2.add(i, temp);
+            raceCars2.add(temp);
         }
 
         int trucksSize = new Random().nextInt(4);
@@ -38,7 +38,7 @@ public class AutomobileSalon {
         }
         for(int i = 0; i <trucksSize; i++){
             Truck1 temp = TruckFactory.createCar("Truck1");
-            trucks.add(i,temp);
+            trucks.add(temp);
         }
 
         int automobileSize = new Random().nextInt(15);
@@ -47,7 +47,7 @@ public class AutomobileSalon {
         }
         for(int i = 0; i <automobileSize; i++){
             Automobile1 temp = AutomobileFactory.createCar("Automobile1");
-            automobiles.add(i, temp);
+            automobiles.add(temp);
         }
     }
 
